@@ -1,0 +1,25 @@
+import 'dart:io';
+
+import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:awesome_dialog/awesome_dialog.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
+import 'package:image_picker/image_picker.dart';
+import '../../../present/cars/bloc/car_bloc.dart';
+import 'package:flutter/services.dart';
+import 'dart:convert';
+import 'package:flutter/services.dart' show rootBundle;
+import '../../data/drift.dart';
+import '../../main.dart';
+import '../../present/car/bloc/carpart_bloc.dart';
+import '../../present/cars/cubit/car_cubit.dart';
+import '../../present/setting/theme/cubit/theme_cubit.dart';
+part 'cards/cars.dart';
+part 'cards/carscard.dart';
+part 'text/text_wighet.dart';
+part 'dialog/dialog_add_car.dart';
+part 'navbar/navbar_wighet.dart';
+part 'dialog/dialog_create_repair.dart';
+part 'dialog/dialog_updait_car.dart';
